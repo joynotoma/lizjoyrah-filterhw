@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Supermarket Filter</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+        <link href="stylesheet.css" rel="stylesheet">
+        <!-- Rounded switch -->
+        <label class="switch" <div class="slider round"></div>
+        </label>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+<h1> Welcome to the Shop Around the Corner! </h1>
+<h2> Click on what you are looking for below to see our selection </h2>
+
+        <div id="hold-all">
+            <div id="sorter">
+                <button class="filter" data-filter="dairy">Dairy</button>
+                <button class="filter" data-filter="meat">Meat</button>
+                <button class="filter" data-filter="breakfast">Breakfast</button>
+                <button class="filter" data-filter="household">Household</button>
+                <button class="filter" data-filter="all">All</button>
+            </div>
+
+            <div id="image-container">
+
+
+
+                <div id="cereal" class="breakfast sugar active item all">
+                    <h2> Cereal </h2> <img src="images/cereal.png"></div>
+
+                <div id="steak" class="meat dinner active item all">
+                    <h2> Steak </h2> <img src="images/steak.png"></div>
+
+                <div id="apples" class="fruit fresh active item all">
+                    <h2> Apples </h2> <img src="images/apples.png"></div>
+
+                <div id="fabric-softener" class="household active item all">
+                    <h2> Detergent </h2> <img src="images/fabric_softner.png"></div>
+
+                <div id="eggs" class="dairy breakfast active item all">
+                    <h2> Eggs </h2><img src="images/eggs.png"></div>
+
+                <div id="cheese" class="dairy active item all">
+                    <h2> Cheese </h2> <img src="images/cheese.png"></div>
+
+                <div id="chicken" class="meat dinner active item all">
+                    <h2> Chicken </h2> <img src="images/chicken.png"></div>
+
+                <div id="juice" class="breakfast active item all">
+                    <h2> Juice </h2> <img src="images/juice.png"></div>
+
+                <div id="soap" class="household active item all">
+                    <h2> Soap </h2> <img src="images/soap.png"></div>
+
+                <div id="milk" class="dairy breakfast active item all">
+                    <h2> Milk </h2> <img src="images/milk.png"> </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
